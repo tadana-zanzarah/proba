@@ -8,8 +8,8 @@
   --bg-color: #f3efec;
   --text-color: #312a4e;
   --accent-color: #ffab6b;
-  --main-font: Raleway;
-  --accent-font: "STIX Two Text";
+  --main-font: raleway;
+  --accent-font: 'STIX Two Text';
 }
 
 .page {
@@ -24,7 +24,7 @@
 
 .theme_dark {
   --bg-color: #171717;
-  --text-color: #B3B3B3;
+  --text-color: #b3b3b3;
   --accent-color: transparent;
 }
 
@@ -68,7 +68,7 @@ button:focus-visible {
 .header__title {
   margin-block-end: 40px;
   font-size: clamp(2.5rem, 0.8333rem + 7.4074vw, 7.5rem);
-  color: RGB(255, 023, 129);
+  color: RGB(255 023 129);
 }
 
 .content__title {
@@ -96,7 +96,6 @@ button:focus-visible {
 }
 
 .header__theme-button {
-  font-size: inherit;
   color: currentColor;
   font-size: 18px;
   font-weight: 400;
@@ -129,7 +128,7 @@ button:focus-visible {
   inline-size: calc(100% + 8px); /*по 4px с обеих сторон*/
   block-size: 0.5em;
   inset-inline-start: -4px;
-  inset-block-end: 0em;
+  inset-block-end: 0;
 }
 
 .theme_dark .header__theme-button_is-active::after {
@@ -215,7 +214,7 @@ button:focus-visible {
 }
 
 .content__list-item::before {
-  content: "";
+  content: '';
   position: absolute;
   background-image: url(/images/marker-light.svg);
   background-repeat: no-repeat;
@@ -246,8 +245,9 @@ button:focus-visible {
   background-color: var(--accent-color);
 }
 
-.theme_dark .content__text-block_type_first-lettered
-.content__paragraph:first-of-type:first-letter {
+.theme_dark
+  .content__text-block_type_first-lettered
+  .content__paragraph:first-of-type:first-letter {
   border: 1px solid currentColor;
 }
 
@@ -278,7 +278,7 @@ button:focus-visible {
 .footer {
   margin-block-start: 10%;
   border-block-start: 1px solid currentColor;
-  text-align: center;  
+  text-align: center;
   padding: 2.5%;
 }
 
