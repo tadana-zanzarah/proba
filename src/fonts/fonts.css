@@ -1,7 +1,6 @@
 @font-face {
   font-family: Raleway;
-  src:
-    url(./Raleway-Regular.woff2) format('woff2'),
+  src: url(./Raleway-Regular.woff2) format('woff2'),
     url(./Raleway-Regular.woff) format('woff');
   font-weight: 400;
   font-display: swap;
@@ -9,8 +8,7 @@
 
 @font-face {
   font-family: Raleway;
-  src:
-    url(./Raleway-Italic.woff2) format('woff2'),
+  src: url(./Raleway-Italic.woff2) format('woff2'),
     url(./Raleway-Italic.woff) format('woff');
   font-weight: 400;
   font-style: italic;
@@ -19,8 +17,7 @@
 
 @font-face {
   font-family: Raleway;
-  src:
-    url(./Raleway-Bold.woff2) format('woff2'),
+  src: url(./Raleway-Bold.woff2) format('woff2'),
     url(./Raleway-Bold.woff) format('woff');
   font-weight: 700;
   font-display: swap;
@@ -28,8 +25,7 @@
 
 @font-face {
   font-family: 'STIX Two Text';
-  src:
-    url(./STIXTwoText-SemiBold.woff2) format('woff2'),
+  src: url(./STIXTwoText-SemiBold.woff2) format('woff2'),
     url(./STIXTwoText-SemiBold.woff) format('woff');
   font-weight: 600;
   font-display: swap;

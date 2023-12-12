@@ -107,7 +107,7 @@ button:focus-visible {
 }
 
 .header__theme-button_type_light {
-  background-image: url(/images/sun.png);
+  background-image: url(../images/sun.png);
 }
 
 .header__theme-button:hover:not(.header__theme-button_is-active) {
@@ -132,7 +132,7 @@ button:focus-visible {
 }
 
 .theme_dark .header__theme-button_is-active::after {
-  background-image: url(/images/pattern.svg);
+  background-image: url(../images/pattern.svg);
 }
 
 .button:disabled {
@@ -195,7 +195,7 @@ button:focus-visible {
 }
 
 .theme_dark .colored-text::after {
-  background-image: url(/images/pattern.svg);
+  background-image: url(../images/pattern.svg);
 }
 
 .content__card-subtitle {
@@ -216,7 +216,7 @@ button:focus-visible {
 .content__list-item::before {
   content: '';
   position: absolute;
-  background-image: url(/images/marker-light.svg);
+  background-image: url(../images/marker-light.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -227,7 +227,7 @@ button:focus-visible {
 }
 
 .theme_dark .content__list-item::before {
-  background-image: url(/images/marker-dark.svg);
+  background-image: url(../images/marker-dark.svg);
 }
 
 .content__list-item:not(:last-child) {
